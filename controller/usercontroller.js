@@ -37,8 +37,6 @@ exports.puzzle = async (req,res) => {
 
 exports.category = async (req,res) => {
 
-    var image_name = req.file.originalname;
-
     req.body.name;
     req.body.image = image_name;
 
