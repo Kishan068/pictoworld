@@ -3,8 +3,6 @@ var categorymodel = require('../model/categorymodel');
 
 exports.puzzle = async (req,res) => {
 
-    var image_name = req.file.originalname;
-
     function makeid(length)
     {
         let result = '';
